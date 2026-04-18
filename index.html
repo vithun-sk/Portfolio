@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Vithun SK, a Frontend Web Developer & Aspiring MERN Stack Developer. Explore my projects, skills, and contact info."
+    />
+    <title>Vithun SK - Frontend Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="headername">Vithun SK</div>
+        <div class="navlists" id="navlists">
+          <a href="#about_me">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="basic_intro">
+        <img
+          src="image/Profile.png"
+          alt="Profile Image"
+          class="profileimage"
+          loading="lazy"
+        />
+        <div class="selfintro">
+          <h1 class="intro_tag1">Hello I'm</h1>
+          <h1 class="intro_tag2">Vithun S K</h1>
+          <h1 class="intro_tag3">
+            Frontend Developer | Aspiring MERN Stack Developer
+          </h1>
+          <div class="intro_buttons">
+            <a
+              href="assets/Vithun Frontend-Developer-Intern Resume.pdf"
+              class="btn btn-primary"
+              download="Vithun Frontend-Developer-Intern Resume.pdf"
+              >Download CV</a
+            >
+            <a href="mailto:vithunkumar07@gmail.com" class="btn btn-outline"
+              >Contact Info</a
+            >
+          </div>
+          <div class="social_icons">
+            <a   
+              href="https://www.linkedin.com/in/vithun-sk/"
+              class="social_link"
+              aria-label="LinkedIn"
+            >
+              <img src="image/linkedin.png" alt="LinkedIn" />
+            </a>
+            <a
+              href="https://github.com/vithun-sk"
+              class="social_link"
+              aria-label="GitHub"
+            >
+              <img src="image/github.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about_me" class="about_me">
+        <div class="section_header">
+          <h2 class="section_sub">Get to Know More</h2>
+          <h1 class="section_title">About Me</h1>
+        </div>
+        <div class="about_me_content">
+          <img
+            src="image/About me image.avif"
+            alt="About Me"
+            class="about_image"
+            loading="lazy"
+          />
+          <div class="about_me_para">
+            <p>
+              Hi, I’m Vithun, a B.Tech Computer Science and Engineering student
+              at SRM Institute of Science and Technology, Ramapuram (CGPA: 9.3).
+              I’m really interested in frontend development and enjoy building
+              responsive and interactive web applications.
+            </p>
+            <br />
+            <p>
+              I’ve worked with HTML, CSS, JavaScript, and React to create
+              projects that focus on user experience and clean design. I like
+              turning ideas into real applications and making sure they are
+              simple, fast, and easy to use.
+            </p>
+            <br />
+            <p>
+              I’ve also worked with APIs, used Git for version control, and
+              deployed my projects on platforms like Vercel. Recently, I’ve
+              started exploring backend development to grow into a full-stack
+              developer.
+            </p>
+            <br />
+            <p>
+              Right now, I’m looking for a frontend internship where I can learn
+              more, improve my skills, and work on real-world projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <div class="section_header">
+          <h2 class="section_sub">Explore My</h2>
+          <h1 class="section_title">Skills</h1>
+        </div>
+        <div class="skills_content">
+          <article class="skill_card">
+            <h3 class="skill_card_title">Programming Languages</h3>
+            <div class="skill_list">
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>C</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>C++</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>Python</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill_card">
+            <h3 class="skill_card_title">Web Development</h3>
+            <div class="skill_list">
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>HTML</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>CSS</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>React JS</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>Node JS</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>MySQL</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill_card">
+            <h3 class="skill_card_title">Tools & Deployment</h3>
+            <div class="skill_list">
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>Git</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>GitHub</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>Vercel</span>
+              </div>
+              <div class="skill_item">
+                <img src="image/Tick logo.png" alt="✓" /><span>VS Code</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="projects" id="projects">
+        <div class="section_header">
+          <h2 class="section_sub">Browse My Recent</h2>
+          <h1 class="section_title">Top Projects</h1>
+        </div>
+        <div class="project_grid">
+          <div class="project_card">
+            <img
+              src="image/Project 1 image.png"
+              alt="RecruitHub"
+              class="project_img"
+              loading="lazy"
+            />
+            <div class="project_info">
+              <h2 class="project_name">RecruitHub</h2>
+              <p class="project_desc">
+                Developed a full-stack recruitment platform with role-based
+                modules for HR and Candidates, featuring job posting,
+                application tracking, and real-time status updates. Implemented
+                JWT authentication and a centralized dashboard to eliminate
+                manual Excel-based hiring workflows.
+              </p>
+              <div class="project_links">
+                <a
+                  href="https://github.com/vithun-sk/Recruitment-Management-System"
+                  target="_blank"
+                  class="proj_btn"
+                  >GitHub</a
+                >
+                <a href="#" class="proj_btn proj_btn_outline">In Progress</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project_card">
+            <img
+              src="image/Project 2 image.png"
+              alt="Wealthio"
+              class="project_img"
+              loading="lazy"
+            />
+            <div class="project_info">
+              <h2 class="project_name">Wealthio</h2>
+              <p class="project_desc">
+                Developed a React-based personal finance tracker with full CRUD
+                functionality to manage income, expenses, and savings
+                efficiently. Implemented Local Storage for persistent data
+                handling and dynamic real-time balance updates without a
+                backend.
+              </p>
+              <div class="project_links">
+                <a
+                  href="https://github.com/vithun-sk/Finance-Management"
+                  target="_blank"
+                  class="proj_btn"
+                  >GitHub</a
+                >
+                <a
+                  href="https://wealthio-finance-mangement.vercel.app/"
+                  target="_blank"
+                  class="proj_btn proj_btn_outline"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view_more_wrapper">
+          <a
+            href="https://github.com/vithun-sk"
+            target="_blank"
+            class="btn btn-primary"
+            >View More on GitHub</a
+          >
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="section_header">
+          <h2 class="section_sub">Get in Touch</h2>
+          <h1 class="section_title">Contact Me</h1>
+        </div>
+        <div class="contact_content">
+          <a
+            href="mailto:vithunkumar07@gmail.com"
+            class="contact_card"
+            target="_blank"
+          >
+            <img src="image/gmail.png" alt="Gmail" />
+            <span>vithunkumar07@gmail.com</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vithun-sk/"
+            class="contact_card"
+            target="_blank"
+          >
+            <img src="image/linkedin.png" alt="LinkedIn" />
+            <span>linkedin.com/in/vithun-sk</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Bottom Nav -->
+      <nav class="bottom_navbar">
+        <a href="#about_me">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>© 2025 Vithun SK. All rights reserved.</p>
+        <p>
+          <a href="https://www.linkedin.com/in/vithun-sk" target="_blank"
+            >LinkedIn</a
+          >
+          &nbsp;|&nbsp;
+          <a href="https://github.com/vithun-sk" target="_blank">GitHub</a>
+        </p>
+      </footer>
+    </main>
+
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById("navlists");
+        const hamburger = document.getElementById("hamburger");
+        nav.classList.toggle("open");
+        hamburger.classList.toggle("active");
+      }
+      // Close menu when a link is clicked
+      document.querySelectorAll(".navlists a").forEach((link) => {
+        link.addEventListener("click", () => {
+          document.getElementById("navlists").classList.remove("open");
+          document.getElementById("hamburger").classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
