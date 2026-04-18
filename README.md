@@ -6,7 +6,7 @@ The portfolio highlights my journey, hands-on projects, and interest in building
 ---
 
 ## 🚀 Live Demo
-🔗 **[View Portfolio](https://vithun-sk.github.io/Portfolio_vithun/)**
+🔗 **[View Portfolio](https://vithun-portfolio.vercel.app/)**
 
 ---
 
@@ -39,7 +39,7 @@ This portfolio serves as a central place to:
 |-----------|--------------|
 | **Frontend** | HTML, CSS, JavaScript |
 | **Styling** | Custom CSS, Google Fonts |
-| **Deployment** | GitHub Pages |
+| **Deployment** | Vercel|
 | **Tools Used** | VS Code, Git, GitHub |
 
 ---
